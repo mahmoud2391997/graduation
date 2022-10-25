@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "287980085729",
+    "project_id": "smart-school-47c89",
+    "storage_bucket": "smart-school-47c89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287980085729:android:3a8fa9df2a40e89c8472a0",
+        "android_client_info": {
+          "package_name": "com.example.graduation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287980085729-ld3ohuo7pid6t2hhoa4rcaqt1vo2l01g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA23GcS3ffTTf76UhukOjaC7mAXe9mHF_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287980085729-ld3ohuo7pid6t2hhoa4rcaqt1vo2l01g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "287980085729-h6g98ojon7n8p522duoea90tt2ggpfjc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smartSchool"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287980085729:android:dcf10b51851f459f8472a0",
+        "android_client_info": {
+          "package_name": "com.example.smart_school_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287980085729-ld3ohuo7pid6t2hhoa4rcaqt1vo2l01g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA23GcS3ffTTf76UhukOjaC7mAXe9mHF_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287980085729-ld3ohuo7pid6t2hhoa4rcaqt1vo2l01g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "287980085729-h6g98ojon7n8p522duoea90tt2ggpfjc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smartSchool"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
