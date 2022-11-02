@@ -1,42 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:graduation/role_view.dart';
 import 'UI.dart';
 import 'signIn.dart';
 import 'welcome.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'role_view.dart';
 
-void main()async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  
+
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        
-        
-        
-        
-        
-        
-        
-        
-        
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Color.fromARGB(255, 243, 233, 218),
       ),
       home: const onBoardingScreen(),
       routes: {
-        '/UI/':(context) => const UI(),
+        '/UI/': (context) => const UI(),
       },
     );
   }
@@ -56,18 +48,19 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: Stack(
-        children:[ PageView(
-          children: [
-            MyHomePage(),
-            LoginPage(),
-          ],
-        ),
-        Container(
-          alignment: Alignment(0,0.75),
-          child: SmoothPageIndicator(controller:_controller,count:2)),
-      ],
+        children: [
+          PageView(
+            children: [
+              MyHomePage(),
+              role(),
+            ],
+          ),
+          Container(
+            alignment: Alignment(0, 0.75),
+            // child: SmoothPageIndicator(controller: _controller, count: 2)
+          ),
+        ],
       ),
-      
     );
   }
 }
