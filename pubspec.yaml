@@ -40,6 +40,8 @@ dependencies:
   firebase_core: ^2.1.0
   font_awesome_flutter: ^10.2.1
   firebase_auth: ^4.0.2
+  cloud_firestore: ^4.1.0
+  flutter_keyboard_visibility: ^5.4.0
 
 dev_dependencies:
   flutter_test:

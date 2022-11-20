@@ -55,10 +55,10 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
               role(),
             ],
           ),
-          Container(
-            alignment: Alignment(0, 0.75),
-            // child: SmoothPageIndicator(controller: _controller, count: 2)
-          ),
+          // Container(
+          //   alignment: Alignment(0, 0.75),
+          //   // child: SmoothPageIndicator(controller: _controller, count: 2)
+          // ),
         ],
       ),
     );

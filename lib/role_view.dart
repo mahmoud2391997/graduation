@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:graduation/CanteenWorker_id_signIn.dart';
+import 'package:graduation/id_signin.dart';
+import 'package:graduation/parent_id_signIn.dart';
+import 'package:graduation/teacher_id_signIn.dart';
 import 'signIn.dart';
 
 class role extends StatelessWidget {
@@ -51,8 +55,8 @@ class role extends StatelessWidget {
                 minWidth: double.infinity,
                 height: 60,
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LoginPage()));
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => ID()));
                 },
                 child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16.0),
@@ -76,7 +80,7 @@ class role extends StatelessWidget {
               height: 60,
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => LoginPage()));
+                    MaterialPageRoute(builder: (context) => Teacher_ID()));
               },
               child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 16.0),
@@ -101,7 +105,7 @@ class role extends StatelessWidget {
               height: 60,
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => LoginPage()));
+                    MaterialPageRoute(builder: (context) => CanteenWorkerID()));
               },
               child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 16.0),
