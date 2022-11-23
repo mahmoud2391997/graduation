@@ -12,7 +12,7 @@ class _CanteenWorkerHomeScreenState extends State<CanteenWorkerHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text("home")),
+      body: Center(child: Text("Canteen worker home screen")),
     );
   }
 }
